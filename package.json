@@ -9,11 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mantine/core": "8.3.12",
-    "@mantine/hooks": "8.3.12",
+    "@mantine/carousel": "^8.3.12",
+    "@mantine/code-highlight": "^8.3.12",
+    "@mantine/core": "^8.3.12",
+    "@mantine/hooks": "^8.3.12",
+    "@tabler/icons-react": "^3.36.1",
+    "embla-carousel": "^8.5.2",
+    "embla-carousel-react": "^8.5.2",
     "next": "15.5.3",
     "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "react-dom": "19.1.1",
+    "tabler": "^1.0.0-alpha.8"
   },
   "devDependencies": {
     "@types/node": "24.3.3",
