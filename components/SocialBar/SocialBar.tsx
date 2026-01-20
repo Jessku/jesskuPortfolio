@@ -10,7 +10,7 @@ export default function SocialBar() {
         <div>
             <text> Jessee Horton</text>
             <div>
-                <Image src={"/Jessee.jpg"} alt="Jessee Horton" width={45} height={45}/>
+                <Image src={"/Jessee.jpg"} alt="Jessee Horton" width={276} height={276}/>
             </div>
 
             <ActionIconGroup>
@@ -31,7 +31,7 @@ export default function SocialBar() {
                     <IconBrandTwitch />
                 </ActionIcon>
             </ActionIconGroup>
-            <div>Hatsune Miku</div>
+            <div>HatsuneMikuHatsuneMiku</div>
         </div>
     );
 }
