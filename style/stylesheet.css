@@ -1,8 +1,8 @@
 body{
     max-height: 100%;
     max-width: 100%;
-    background-color: rgba(33, 202, 104, 0.185);
-    color: black
+    background-color: #0e7c7a33; /* #21ca682f */
+    color: #27233a;
 }
 
 h1{
