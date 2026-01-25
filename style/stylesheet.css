@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+@font-face {
+    font-family: 'khFont';
+    src: url('./fonts/kingdom_hearts/Kingdom_Hearts_Font.ttf');
+}
+
 body{
     max-height: 100%;
     max-width: 100%;
     background-color: #0e7c7a33; /* #21ca682f */
-    color: #27233a;
+    color: #27233a; /* text color */
+}
+
+/* Jessee Horton */
+#name{
+    font-family: 'khFont';
 }
 
 h1{

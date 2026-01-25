@@ -5,7 +5,7 @@ import { ActionIcon, ActionIconGroup } from "@mantine/core"
 import {IconMail, IconPaperclip} from '@tabler/icons-react'
 import { socials } from "../models/models";
 import SocialBar from './../components/SocialBar/SocialBar';
-import StickyCards from './../StickyCards/StickyCards';
+//import  StickyCards  from './../StickyCards/StickyCards';
 
 export default function HomePage() {
   return (
@@ -13,7 +13,7 @@ export default function HomePage() {
   <div> 
     <SocialBar/>
     <div>
-      <StickyCards/>
+      
     </div>
 
   </div>
