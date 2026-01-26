@@ -12,10 +12,28 @@ body{
     color: #27233a; /* text color */
 }
 
+.flexCol{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.flexRow{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+}
+
+
 /* Jessee Horton */
 #name{
     font-family: 'khFont';
     font-size:xx-large;
+}
+
+#name2{
+    font-family: 'Jersey 20', sans-serif;
+    font-size: xx-large;
 }
 
 h1{

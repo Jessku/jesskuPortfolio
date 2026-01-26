@@ -8,7 +8,9 @@ import Image from 'next/image';
 export default function SocialBar() {
     return (
         <div>
-            <div id = "name"> Jessee Horton f</div>
+            <div id = "name2"> Jessee Horton</div>
+            <div className = "flexRow">
+            
             <div>
                 <Image src={"/Jessee.jpg"} alt="Jessee Horton" width={276} height={276}/>
             </div>
@@ -31,7 +33,8 @@ export default function SocialBar() {
                     <IconBrandTwitch />
                 </ActionIcon>
             </ActionIconGroup>
-            <div>Hatsune Miku</div>
+            </div>
+            <div id = "name">Hatsune Miku</div>
         </div>
     );
 }
