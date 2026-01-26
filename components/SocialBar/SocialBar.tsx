@@ -8,14 +8,9 @@ import Image from 'next/image';
 export default function SocialBar() {
     return (
         <div>
-            <div id = "name2"> Jessee Horton</div>
-            <div className = "flexRow">
-            
-            <div>
-                <Image src={"/Jessee.jpg"} alt="Jessee Horton" width={276} height={276}/>
-            </div>
-
-            <ActionIconGroup>
+            <div className = "flexRow2">
+                 <div id = "name2"> Jessee Horton</div>
+                  <ActionIconGroup>
                 <ActionIcon variant="default" size="lg" aria-label="name" color="grape" onClick={() => window.open(socials.resume)}>
                     <IconPaperclip />
 
@@ -34,7 +29,14 @@ export default function SocialBar() {
                 </ActionIcon>
             </ActionIconGroup>
             </div>
-            <div id = "name">Hatsune Miku</div>
+            <div>
+                <Image src={"/Jessee.jpg"} alt="Jessee Horton" width={276} height={276}/>
+            </div>
+
+           
+            <div id = "name">Wayne State University, BS in Computer Science</div>
+            <div id = "name">Cognixia</div>
+            <div id = "name">Sky Flame</div>
         </div>
     );
 }
