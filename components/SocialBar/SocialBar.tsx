@@ -8,11 +8,11 @@ import Image from 'next/image';
 export default function SocialBar() {
     return (
         <div>
-            <div className = "flexRow2">
+            <div className = "flexRow">
                 <div id = "name">Connect with Me!</div>
             </div>
-            <div className = "flexRow2">
-                 <div id = "name2"> Jessee Horton</div>
+            <div className = "flexRow3">
+                 <div id = "h1"> Jessee Horton</div>
                   <ActionIconGroup>
                 <ActionIcon variant="default" size="lg" aria-label="name" color="grape" onClick={() => window.open(socials.resume)}>
                     <IconPaperclip />
@@ -35,8 +35,10 @@ export default function SocialBar() {
             <div className = "flexRow2">
                 <Image src={"/Jessee.jpg"} alt="Jessee Horton" width={276} height={276}/>
                 <div className = "flexCol">
+                 <div id = "h1">Accolades</div>
                  <div id = "name2">*Wayne State University, BS in Computer Science</div>
-                 <div id = "name2">*Cognixia</div>
+                 <div id = "name2">*Cognixia Horizons Grad</div>
+                 <div id = "name2">*Apple Developer Foundations Grad</div>
                  <div id = "name2">*Sky Flame</div>
                 </div>
                 <div id = "name">Software Engineer Intern at Cognixia</div>

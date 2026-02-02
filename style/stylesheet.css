@@ -29,6 +29,7 @@ body{
     height: 100%;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -41,4 +42,10 @@ body{
 #name2{
     font-family: 'Jersey 20', sans-serif;
     font-size: xx-large;
+}
+
+#h1{
+    font-family: 'Jersey 20', sans-serif;
+    font-size: xx-large;
+    color: #ef476f
 }
