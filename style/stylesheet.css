@@ -31,6 +31,12 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.flexRow3{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+}
 
 
 /* Jessee Horton */

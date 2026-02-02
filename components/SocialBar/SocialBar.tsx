@@ -41,7 +41,12 @@ export default function SocialBar() {
                  <div id = "name2">*Apple Developer Foundations Grad</div>
                  <div id = "name2">*Sky Flame</div>
                 </div>
-                <div id = "name">Software Engineer Intern at Cognixia</div>
+                <div className = "flexCol">
+                <div id = "name2">*Twitch Partner</div>
+                <div id = "name2">*Twitch Partner</div>
+                <div id = "name2">*Twitch Partner</div>
+                <div id = "name2">*Twitch Partner</div>
+                </div>
             </div>
         </div>
     );
