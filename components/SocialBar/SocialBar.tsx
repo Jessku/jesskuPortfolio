@@ -32,7 +32,7 @@ export default function SocialBar() {
                 </ActionIcon>
             </ActionIconGroup>
             </div>
-            <div className = "flexRow2">
+            <div className = "flexRow3">
                 <Image src={"/Jessee.jpg"} alt="Jessee Horton" width={276} height={276}/>
                 <div className = "flexCol">
                  <div id = "h1">Accolades</div>
@@ -42,10 +42,10 @@ export default function SocialBar() {
                  <div id = "name2">*Sky Flame</div>
                 </div>
                 <div className = "flexCol">
-                <div id = "name2">*Twitch Partner</div>
-                <div id = "name2">*Twitch Partner</div>
-                <div id = "name2">*Twitch Partner</div>
-                <div id = "name2">*Twitch Partner</div>
+                <div id = "name2">*Twitch Affiliate</div>
+                <div id = "name2">*Twitch Affiliate</div>
+                <div id = "name2">*Twitch Affiliate</div>
+                <div id = "name2">*Twitch Affiliate</div>
                 </div>
             </div>
         </div>
