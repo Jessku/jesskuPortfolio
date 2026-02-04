@@ -6,3 +6,5 @@ export const socials = {
     twitch: "https://www.twitch.tv/jessku_h",
     github: "https://github.com/jessku",
 };
+
+export const projects = {};

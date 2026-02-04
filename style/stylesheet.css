@@ -12,13 +12,13 @@ body{
     color: #27233a; /* text color */
 }
 
-.flexCol{
+.flexCol{ /* VStack */
     display: flex;
     height: 100%;
     flex-direction: column;
 }
 
-.flexRow{
+.flexRow{ /* HStack */
     display: flex;
     height: 100%;
     flex-direction: row;
@@ -36,7 +36,10 @@ body{
     height: 100%;
     flex-direction: row;
     align-items: center;
+
 }
+
+
 
 
 /* Jessee Horton */
