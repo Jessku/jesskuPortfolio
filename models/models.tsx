@@ -7,4 +7,6 @@ export const socials = {
     github: "https://github.com/jessku",
 };
 
-export const projects = {};
+export const projects = {
+    jdbc : "https://github.com/Jessku/GameTracker"
+};
