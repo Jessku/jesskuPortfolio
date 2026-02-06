@@ -14,9 +14,9 @@ export default function HomePage() {
   <div> 
     <SocialBar />
     <div>
-      <ProgramLang />
+    <ProgramLang />
     </div>
-
+    <StickyCards />
   </div>
 
   </>); //npm {run build} {start} 

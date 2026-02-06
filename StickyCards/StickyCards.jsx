@@ -2,12 +2,22 @@ import "./StickyCards.css"
 
 const StickyCards = ()=> {
     const stickyCardsData = [
-        { id: 1, title: "Hatsune Miku", image: "/sticky-cards/",content: "Sticky Card 1" },
-        { id: 2, content: "Sticky Card 2" },
-        { id: 3, content: "Sticky Card 3" },
+        { index: 1, title: "TakoDachi", image: "/sticky-cards/card_5.gif",content: "Sticky Card 1" },
+        { index: 2, content: "Sticky Card 2" },
+        { index: 3, content: "Sticky Card 3" },
     ]
     return <div className="sticky-cards-container">
-        <div>Hi</div>
+        {stickyCardsData.map((cardData, index) => (
+            <div className = "sticky-card" key={index}>
+                <div className = "sticky-card-index">
+                    <h1>{cardData.index}</h1>
+                </div>
+                <div className = "sticky-card-content">{cardData.content}</div>
+                <div className = "sticky-card-image">
+                    <img src={cardData.image} alt={cardData.title} />
+                </div>
+                </div>
+        ))}
     </div>
     
 }
