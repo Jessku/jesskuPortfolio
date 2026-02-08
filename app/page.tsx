@@ -11,8 +11,14 @@ import  StickyCards  from './../StickyCards/StickyCards';
 export default function HomePage() {
   return (
     <>  
-  <div> 
     <SocialBar />
+    <section className='intro'> 
+    <SocialBar />
+    </section>
+    
+    <section className='outro'> </section>
+  <div> 
+    
     <div>
     <ProgramLang />
     </div>

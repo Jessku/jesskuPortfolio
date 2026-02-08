@@ -5,12 +5,30 @@
     src: url('/fonts/kingdom_hearts/Kingdom_Hearts_Font.ttf');
 }
 
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
 body{
     max-height: 100%;
     max-width: 100%;
     background-color: #0e7c7a33; /* #21ca682f */
     color: #27233a; /* text color */
 }
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
 
 .flexCol{ /* VStack */
     display: flex;
