@@ -11,18 +11,22 @@ import  StickyCards  from './../StickyCards/StickyCards';
 export default function HomePage() {
   return (
     <>  
-    <SocialBar />
+    
     <section className='intro'> 
     <SocialBar />
     </section>
+    <section className='intro'> 
+    <ProgramLang />
+    </section>
     
-    <section className='outro'> </section>
+    
+    <section className='outro'> 
+      <StickyCards />
+    </section>
   <div> 
     
     <div>
-    <ProgramLang />
     </div>
-    <StickyCards />
   </div>
 
   </>); //npm {run build} {start} 
