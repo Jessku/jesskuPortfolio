@@ -20,7 +20,7 @@ export default function HomePage() {
     </section>
     
     
-    <section className='outro'> 
+    <section className='intro'> 
       <StickyCards />
     </section>
   <div> 
