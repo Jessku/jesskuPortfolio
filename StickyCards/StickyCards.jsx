@@ -14,7 +14,7 @@ const StickyCards = ()=> {
         { index: 2, title : "Miku", image: "/sticky-cards/card_1.png", content: "Miku v3" },
         { index: 3, title: "GUN Mobile", image: "/sticky-cards/card_3.webp", content: "GUN Mobile" },
         {index: 4, title: "Emblem Past", image: "/sticky-cards/card_2.png", content: "Days of Emblem Past"},
-        {index: 4, title: "Asura in Naraka", image: "/sticky-cards/card_6.png", content: "Asura in Naraka"}
+        {index: 5, title: "Asura in Naraka", image: "/sticky-cards/card_6.png", content: "Asura in Naraka"}
     ]
 
     const containerRef = useRef(null); 
