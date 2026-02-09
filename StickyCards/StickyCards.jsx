@@ -1,4 +1,12 @@
+"use client";
+import React, { use } from "react"
+import {useRef} from "react"
+import gsap from "gsap"
+import ScrollTrigger from "gsap/ScrollTrigger"
+import {useGSAP} from "@gsap/react"
 import "./StickyCards.css"
+
+gsap.registerPlugin(ScrollTrigger);
 
 const StickyCards = ()=> {
     const stickyCardsData = [
@@ -8,7 +16,26 @@ const StickyCards = ()=> {
         {index: 4, title: "Emblem Past", image: "/sticky-cards/card_2.png", content: "Days of Emblem Past"},
         {index: 4, title: "Asura in Naraka", image: "/sticky-cards/card_6.png", content: "Asura in Naraka"}
     ]
-    return <div className="sticky-cards-container">
+
+    const containerRef = useRef(null); 
+    useGSAP(() => {
+        const stickyCards = document.querySelectorAll(".sticky-card");
+
+        stickyCards.forEach((card, index) => {
+            if (index < stickyCards.length - 1) {
+                ScrollTrigger.create({
+                    trigger: card,
+                    start: "top top",
+                    endTrigger: stickyCards[stickyCards.length - 1],
+                    end: "top top",
+                    pin: true,
+                    pinSpacing: false,
+                })
+            }
+        });
+    }, {scope: containerRef}); // For sticky card animations
+
+    return <div className="sticky-cards-container" ref={containerRef}>
         {stickyCardsData.map((cardData, index) => (
             <div className = "sticky-card" key={index}>
                 <div className = "sticky-card-index">
